@@ -239,6 +239,20 @@ body {
   overflow: hidden;
 }
 
+.btnD {
+  background-color: green;
+  color: var(--white);
+  font-family: var(--ff-league_spartan);
+  font-size: var(--fs-4);
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  max-width: max-content;
+  padding: 10px 20px;
+  border-radius: var(--radius-5);
+  overflow: hidden;
+}
+
 .has-before,
 .has-after {
   position: relative;
@@ -300,6 +314,14 @@ body {
 :is(.course, .blog) .section-title { margin-block-end: 40px; }
 
 
+.category { background-color: var(--isabelline); }
+
+.category-card {
+  position: relative;
+  background-color: var(--white);
+  border-radius: var(--radius-5);
+  overflow: hidden;
+}
 
 
 
@@ -533,6 +555,149 @@ ul .drop{
    color: var(--kappel)!important;
 }
 
+/*SHOP*/
+.product-cart-wrap {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #cce7d0;
+  border-radius: 25px;
+  overflow: hidden;
+  transition: .2s;
+  -moz-transition: .2s;
+  -webkit-transition: .2s;
+  -o-transition: .2s;
+}
+
+.product-cart-wrap:hover {
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+}
+
+.product-cart-wrap .product-img-action-wrap {
+  position: relative;
+  background-color: #fff;
+  padding: 10px 12px;
+  overflow: hidden;
+  max-height: 320px;
+}
+
+.product-cart-wrap .product-img-action-wrap .product-img {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.product-cart-wrap .product-img-action-wrap .product-img a {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.product-cart-wrap .product-img-action-wrap .product-img a img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product-cart-wrap .product-img-action-wrap .product-img a img.hover-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.25s opacity, 0.25s visibility, transform 1.5s cubic-bezier(0, 0, 0.2, 1), -webkit-transform 1.5s cubic-bezier(0, 0, 0.2, 1);
+}
+
+.product-cart-wrap .product-img-action-wrap .product-img-zoom a img {
+  -webkit-transition: all 1.5s cubic-bezier(0, 0, 0.05, 1);
+  transition: all 1.5s cubic-bezier(0, 0, 0.05, 1);
+}
+
+
+.product-cart-wrap .product-content-wrap {
+  padding: 0 20px 15px 20px;
+}
+
+.product-cart-wrap .product-content-wrap h2 {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.product-cart-wrap .product-content-wrap h2 a {
+  color: #1a1a1a;
+}
+
+.product-cart-wrap .product-content-wrap h2 a:hover , .categories li a:hover{
+  color: var(--kappel);
+}
+
+.product-cart-wrap .product-content-wrap .product-price {
+  padding-top: 5px;
+  text-align: center;
+}
+
+.product-cart-wrap .product-content-wrap .product-price span {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--kappel);
+}
+
+.product-cart-wrap .product-content-wrap .product-price span.new-price {
+  color: var(--kappel);
+}
+
+.product-cart-wrap:hover .product-img-zoom a img {
+  -webkit-transform: scale3d(1.05, 1.05, 1.05) translateZ(0);
+  transform: scale3d(1.05, 1.05, 1.05) translateZ(0);
+}
+
+.product-cart-wrap.small {
+  border: 0;
+  text-align: center;
+}
+
+.product-cart-wrap.small .product-content-wrap {
+  padding: 5px 15px 0 15px;
+}
+
+.product-cart-wrap.small .product-price {
+  padding-top: 0;
+}
+
+.product-cart-wrap.small:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.product-cart-wrap.small h2 {
+  border-bottom: 0;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.product-list-small article:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.product-list-small .title-small {
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.product-list-small .title-small a {
+  color: #1a1a1a;
+}
+
+.product-list-small .product-price {
+  color: var(--kappel);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
 /*-----------------------------------*\
   #ABOUT
 \*-----------------------------------*/
@@ -594,8 +759,6 @@ ul .drop{
   color: var(--eerie-black-1);
   font-family: var(--ff-league_spartan);
 }
-
-
 
 
 
