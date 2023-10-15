@@ -27,8 +27,6 @@
     - custom css link
   -->
   <link rel="stylesheet" href="./assets/css/style.css">
-  
-  
 
   <!--
     - google font link
@@ -54,7 +52,7 @@
 
 </head>
 
-<body id="top">
+<body id="top" style="padding-top:100px;">
 
   <!--
     - #HEADER
@@ -468,75 +466,199 @@
   </header>
 
 
-  
-  <section class="vh-100">
-    <div class="container-fluid h-custom">
-      <div class="row d-flex justify-content-center align-items-center h-100">
-        <div class="col-md-9 col-lg-6 col-xl-5">
-          <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
-            class="img-fluid" alt="Sample image">
-        </div>
-        <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
-          <form>
-            <!-- <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
-              <p class="lead fw-normal mb-0 me-3">Sign in with</p>
-              <button type="button" class="btn btn-info btn-floating mx-1">
-                <i class="fab fa-facebook-f"></i>
-              </button>
-  
-              <button type="button" class="btn btn-info btn-floating mx-1">
-                <i class="fab fa-twitter"></i>
-              </button>
-  
-              <button type="button" class="btn btn-info btn-floating mx-1">
-                <i class="fab fa-linkedin-in"></i>
-              </button>
-            </div> 
-  
-            <div class="divider d-flex align-items-center my-4">
-              <p class="text-center fw-bold mx-3 mb-0">Or</p>
-            </div>-->
-  
-            <!-- Email input -->
-            <div class="form-outline mb-4">
-              <label class="form-label" for="form3Example3">Email</label>
-              <input type="email" name="email" id="form3Example3" class="form-control form-control-lg p-3"
-                placeholder="Enter a valid email" required/>              
-            </div>
-  
-            <!-- Password input -->
-            <div class="form-outline mb-3">
-              <label class="form-label" for="form3Example4">Password</label>
-              <input type="password" id="form3Example4" class="form-control form-control-lg p-3"
-                placeholder="Enter password" required/>              
-            </div>
-  
-            <div class="text-center text-lg-start mt-4 pt-2 d-flex justify-content-between align-items-center">
-              <!-- <button type="button" class="btn btn-INFO btn-lg"
-                style="padding-left: 2.5rem; padding-right: 2.5rem;">Login
-              </button> -->
-              <a href="index.html" class="btn has-before">
-                <span class="span">Login</span>
+
+  <main>
+    <article>
       
-                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-              </a>
-              <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="register.html"
-                class="link-info">Register</a>
-              </p>
-              <!-- <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? 
-                <a href="register.html" class="btn has-before">
-                  <span class="span">Register</span>
-        
-                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                </a>
-              </p> -->
+      <section class="section about" id="web" aria-label="about" >
+        <div class="container">
+
+          <figure class="about-banner m-0 p-0">
+
+            <div class="img-holder" style="--width: 400; --height: 450;">
+              <img src="./assets/images/student.png" width="500" height="470" loading="lazy" alt="about banner"
+                class="img-cover">
+            </div>
+           
+          </figure>
+
+          <div class="about-content" style="width: 800px;">  
+
+            <h2 class="section-title">
+                <span class="span pb-3 fs-1">A+ Book</span><br>                
+            </h2>
+
+            <p class="section-text">
+              A user licence allows you to use both A+ Book and A+ Web on various devices (such as computers, interactive boards, notebooks, tablets or smartphones). Choose this licence if you use your own device.
+            </p>       
+            <p class="section-text">
+              A device-based licence allows an unlimited number of users to use A+ Book on the given device. Choose this type of licence for interactive boards in classrooms and computers in computer labs if multiple teachers or students will use the same device. (This licence does not allow access to A+ Web.)
+            </p>       
+
+            <a href="#" class="btnD btn-success">
+              <span class="span">Download A+ Book</span>
+            </a>   
+
+          </div>
+        </div>
+              
+      <div class="container border border-5 border-info w-100 mt-5">           
+        <div>  
+          <div class="row">
+            <div>
+              <h2 class="bg-info text-light text-center ">For Teacher</h2>      
+            </div>
+            <div class="col-1 w-25 pt-5">
+              <figure class="about-banner m-0 p-0">
+
+                <div class="img-holder" style="--width: 400; --height: 450;">
+                  <img src="./assets/images/teacher.png" width="500" height="470" loading="lazy" alt="about banner"
+                    class="img-cover">
+                </div>
+               
+              </figure>
             </div>
   
-          </form>
+            <div class="col-1 pt-5">
+              <div class="about-content" style="width: 500px;">  
+  
+                <h2 class="section-title text-dark">
+                    <span class="span pb-3 fs-1">A+ Teacher</span><br>                    
+                </h2>
+
+                <ul class="list-group" style="line-height: 150%;">
+                  <li class="list-group-item border-0">
+                   - A user licence that allows one teacher to use both A+ Book and A+ Web on multiple devices
+                  </li>
+                  <li class="list-group-item border-0">
+                   - Full access to interactive content (3D scenes and educational videos) and educational applications both in A+ Book and on A+ Web
+                  </li>
+                </ul>               
+    
+              </div>
+            </div>
+          </div>
+
+          <hr class="hr text-dark mb-5" />
+
+          <div class="row">
+            <div class="col-1 w-25">
+              <figure class="about-banner m-0 p-0">
+
+                <div class="img-holder" style="--width: 400; --height: 450;">
+                  <img src="./assets/images/student.png" width="500" height="470" loading="lazy" alt="about banner"
+                    class="img-cover">
+                </div>
+               
+              </figure>
+            </div>
+  
+            <div class="col-1">
+              <div class="about-content" style="width: 500px;">  
+  
+                <h2 class="section-title text-dark pb-0">
+                    <span class="span pb-3 fs-1">A+ Book CLASSROOM</span><br>                    
+                </h2>
+
+                <ul class="list-group pt-0 pb-5" style="line-height: 140%;">
+                  <li class="list-group-item border-0">
+                   - A device-based licence that allows several teachers to use A+ Book on the same device
+                  </li>
+                  <li class="list-group-item border-0">
+                   - Interactive content (3D scenes, educational videos) for all subjects and ages
+                  </li>
+                  <li class="list-group-item border-0">
+                    - Creating custom digital books from PDFs
+                   </li>
+                </ul>               
+    
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
-    </div>
-  </section>
+
+      <div class="container border border-5 border-info w-100 mt-5">        
+        <div>
+          <h2 class="bg-info text-light text-center ">For Students</h2>  
+          <div class="row">
+            <div class="col-1 w-25 pt-5">
+              <figure class="about-banner m-0 p-0">
+
+                <div class="img-holder" style="--width: 400; --height: 450;">
+                  <img src="./assets/images/student.png" width="500" height="470" loading="lazy" alt="about banner"
+                    class="img-cover">
+                </div>
+               
+              </figure>
+            </div>
+  
+            <div class="col-1 pt-5">
+              <div class="about-content" style="width: 500px;">  
+  
+                <h2 class="section-title text-dark pb-0 mb-0">
+                    <span class="span pb-3 fs-1">A+ Student</span><br>                   
+                </h2>
+    
+                <ul class="list-group">
+                  <li class="list-group-item border-0">
+                   - A user licence that allows one student to use both A+ Book and A+ web on multiple devices
+                  </li>
+                  <li class="list-group-item border-0">
+                   - Full access to interactive content (3D scenes and educational videos) and educational applications both in A+ Book and on A+ Web
+                  </li>
+                </ul>      
+    
+              </div>
+            </div>
+          </div>
+
+          <hr class="hr text-dark mb-5" />
+
+          <div class="row">
+            <div class="col-6 w-25">
+              <figure class="about-banner m-0 p-0">
+
+                <div class="img-holder" style="--width: 400; --height: 450;">
+                  <img src="./assets/images/school.png" width="500" height="470" loading="lazy" alt="about banner"
+                    class="img-cover">
+                </div>
+               
+              </figure>
+            </div>
+  
+            <div class="col-6">
+              <div class="about-content" style="width: 500px;">  
+  
+                <h2 class="section-title text-dark">
+                    <span class="span pb-3 fs-1">A+ Book SCHOOL-LAB</span><br>                    
+                </h2>    
+                
+                <ul class="list-group pb-5">
+                  <li class="list-group-item border-0">
+                   - A device-based licence that allows several students to use A+ Book on the same device
+                  </li>
+                  <li class="list-group-item border-0">
+                   - Interactive content (3D scenes, educational videos) for all subjects and ages
+                  </li>
+                </ul>      
+    
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    
+    </section>
+
+      
+
+    </article>
+  </main>
+
+
 
 
   <!--
