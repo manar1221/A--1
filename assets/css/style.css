@@ -225,7 +225,7 @@ body {
   color: var(--color);
 }
 
-.btn {
+.abtn {
   background-color: var(--kappel);
   color: var(--white);
   font-family: var(--ff-league_spartan);
@@ -265,7 +265,7 @@ body {
   content: "";
 }
 
-.btn::before {
+.abtn::before {
   inset: 0;
   background-image: var(--gradient);
   z-index: -1;
@@ -274,7 +274,7 @@ body {
   transition: var(--transition-2);
 }
 
-.btn:is(:hover, :focus)::before { transform: translateX(0); }
+.abtn:is(:hover, :focus)::before { transform: translateX(0); }
 
 .img-holder {
   aspect-ratio: var(--width) / var(--height);
@@ -329,7 +329,7 @@ body {
   #HEADER
 \*-----------------------------------*/
 
-.header .btn { display: none; }
+.header .abtn { display: none; }
 
 .header {
   position: absolute;
@@ -464,7 +464,7 @@ ul .drop{
   margin-block: 18px 20px;
 }
 
-.hero .btn { margin-inline: auto; }
+.hero .abtn { margin-inline: auto; }
 
 .hero-banner {
   display: grid;
@@ -875,7 +875,7 @@ ul .drop{
   font-size: var(--fs-7);
 }
 
-.course .btn {
+.course .abtn {
   margin-inline: auto;
   margin-block-start: 60px;
 }
@@ -1105,7 +1105,7 @@ height: 100%;
   margin-block-end: 20px;
 }
 
-.newsletter-form .btn {
+.newsletter-form .abtn {
   min-width: 100%;
   justify-content: center;
 }
@@ -1237,7 +1237,7 @@ height: 100%;
 
   .newsletter-form .input-field { margin-block-end: 0; }
 
-  .newsletter-form .btn { min-width: max-content; }
+  .newsletter-form .abtn { min-width: max-content; }
 
 }
 
@@ -1274,7 +1274,7 @@ height: 100%;
 
   .container { max-width: 720px; }
 
-  .btn { padding: 15px 30px; }
+  .abtn { padding: 15px 30px; }
 
   :is(.course, .blog) .grid-list { grid-template-columns: 1fr 1fr; }
 
@@ -1286,7 +1286,7 @@ height: 100%;
 
   .header .container { padding-inline: 30px; }
 
-  .header .btn {
+  .header .abtn {
     display: flex;
     padding: 10px 30px;
     margin-inline: 20px;
@@ -1355,7 +1355,7 @@ height: 100%;
   .footer-brand,
   .footer-list:last-child { grid-column: auto; }
 
-  .newsletter-form .btn { padding-block: 10px; }
+  .newsletter-form .abtn { padding-block: 10px; }
 
 }
 
@@ -1410,7 +1410,7 @@ height: 100%;
   .hero .section-title,
   .hero-text { text-align: left; }
 
-  .hero .btn { margin-inline: 0; }
+  .hero .abtn { margin-inline: 0; }
 
 
 
@@ -1525,7 +1525,7 @@ height: 100%;
     padding-block: 20px;
   }
 
-  .header .btn { margin-inline-end: 0; }
+  .header .abtn { margin-inline-end: 0; }
 
 
 
